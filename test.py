@@ -1,7 +1,7 @@
 from torch import nn, optim
 from tqdm import tqdm
 
-from Project.assignment.detection import TrafficSignDetectionCNN
+from detection import TrafficSignDetectionCNN
 from dataset import *
 from util import *
 from torchvision import transforms
